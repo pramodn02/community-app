@@ -57,7 +57,8 @@
                     isMandatoryDeposit:data.isMandatoryDeposit,
                     allowWithdrawal:data.allowWithdrawal,
                     adjustAdvanceTowardsFuturePayments:data.adjustAdvanceTowardsFuturePayments,
-                    minBalanceForInterestCalculation:data.minBalanceForInterestCalculation
+                    minBalanceForInterestCalculation:data.minBalanceForInterestCalculation,
+                    postInterestAsPerFinancialYear: data.postInterestAsPerFinancialYear == true ? 'true' : 'false'
                 }
 
                 scope.chart = scope.product.activeChart;

@@ -58,7 +58,8 @@
                     minDepositTermTypeId: minDepositTermTypeId,
                     maxDepositTermTypeId: maxDepositTermTypeId,
                     inMultiplesOfDepositTerm: data.inMultiplesOfDepositTerm,
-                    inMultiplesOfDepositTermTypeId: inMultiplesOfDepositTermTypeId
+                    inMultiplesOfDepositTermTypeId: inMultiplesOfDepositTermTypeId,
+                    postInterestAsPerFinancialYear: data.postInterestAsPerFinancialYear == true ? 'true' : 'false'
                 }
 
                 scope.chart = scope.product.activeChart;

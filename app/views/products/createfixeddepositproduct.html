@@ -205,6 +205,13 @@
 	        </select>
 	    </div>
 	</div>
+    <div class="form-group">
+        <label class="control-label col-sm-3">{{ 'label.input.postInterestAsPerFinancialYear' | translate }}</label>
+        <div class="col-sm-2">
+            <input id="postInterestAsPerFinancialYear" type="checkbox" ng-model="formData.postInterestAsPerFinancialYear" ng-true-value="true"
+                   ng-false-value="false">
+        </div>
+    </div>
 	<h3>{{ 'label.heading.interestchart' | translate }}</h3>
 	<hr>
 	<!--<tr>

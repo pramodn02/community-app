@@ -125,7 +125,7 @@
 										            <tr class="graybg">
 										                <th>{{'label.heading.accnum' | translate}}</th>
 										                <th>{{'label.heading.name' | translate}}</th>
-										                <th>{{ 'label.heading.actions' | translate }}</th>
+										                <th colspan="2">{{ 'label.heading.actions' | translate }}</th>
 										            </tr>
 									            </thead>
 									            <tbody>
@@ -138,6 +138,8 @@
 										                </td>
 										                <td><a class="btn btn-success btn-sm" ng-href="#/newindividualjlgloanaccount/{{group.id}}/{{member.id}}" data-ng-show="isActiveMember(member.status.code)"><i
 										                        class="icon-plus icon-white"></i>{{ 'label.button.jlgloanapplication' | translate }}</a></td>
+                                                        <td><a class="btn btn-success btn-sm" ng-href="#/new_jlg_saving_application/{{group.id}}/{{member.id}}" data-ng-show="isActiveMember(member.status.code)"><i
+                                                                class="icon-plus icon-white"></i>{{ 'label.button.jlgsavingapplication' | translate }}</a></td>
 										            </tr>
 									            </tbody>
 									        </table>
